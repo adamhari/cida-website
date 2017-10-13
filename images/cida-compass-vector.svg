@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg3015" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.48.1 r9760" sodipodi:docname="Compass-Rose-BW.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-241 -78 317 317"
+	 style="enable-background:new -241 -78 317 317;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:none;stroke:#000000;stroke-width:0.25;}
+	.st1{fill:#636363;}
+	.st2{display:none;}
+	.st3{display:inline;fill:none;stroke:#FFFFFF;}
+	.st4{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;}
+</style>
+<title  id="title3013">Compass Rose</title>
+<sodipodi:namedview  showgrid="false" inkscape:zoom="2.8" fit-margin-top="2" inkscape:cy="136.06639" borderopacity="1.0" bordercolor="#666666" inkscape:cx="133.92857" pagecolor="#ffffff" fit-margin-left="2" id="base" inkscape:pageopacity="0.0" inkscape:window-y="26" inkscape:window-height="1024" inkscape:window-width="1000" fit-margin-right="2" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:window-maximized="0" fit-margin-bottom="2" inkscape:current-layer="layer1" inkscape:window-x="918">
+	</sodipodi:namedview>
+<path id="inner-line" sodipodi:ry="72" sodipodi:cx="156" sodipodi:type="arc" sodipodi:cy="156" sodipodi:rx="72" class="st0" d="
+	M-10.5,80.5c0,39.8-32.2,72-72,72s-72-32.2-72-72s32.2-72,72-72S-10.5,40.7-10.5,80.5z"/>
+<path id="outer-line" sodipodi:ry="96" sodipodi:cx="156" sodipodi:type="arc" sodipodi:cy="156" sodipodi:rx="96" class="st0" d="
+	M13.5,80.5c0,53-43,96-96,96s-96-43-96-96s43-96,96-96S13.5,27.5,13.5,80.5z"/>
+<path id="ring-fill" inkscape:connector-curvature="0" class="st1" d="M-82.5-15.5c-53,0-96,43-96,96s43,96,96,96s96-43,96-96
+	S-29.5-15.5-82.5-15.5z M-82.5,8.5c39.8,0,72,32.2,72,72s-32.2,72-72,72s-72-32.2-72-72S-122.3,8.5-82.5,8.5z"/>
+<g id="major-rose-edge" class="st2">
+	<path id="highlight-north" inkscape:connector-curvature="0" class="st3" d="M-82.5,80.5l24-24l-24-132"/>
+	<path id="highlight-east" inkscape:connector-curvature="0" class="st3" d="M-82.5,80.5l24,24l132-24"/>
+	<path id="highlight-south" inkscape:connector-curvature="0" class="st3" d="M-82.5,80.5l-24,24l24,132"/>
+	<path id="highlight-west" inkscape:connector-curvature="0" class="st3" d="M-82.5,80.5l-24-24l-132,24"/>
+</g>
+<g id="minor-rose">
+	<g id="light-minor">
+		<path id="light-northeast" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l48-48l-48,23"/>
+		<path id="light-southeast" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l48,48l-23-48"/>
+		<path id="light-southwest" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l-48,48l48-23"/>
+		<path id="light-northwest" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l-48-48l23,48"/>
+	</g>
+	<g id="dark-minor">
+		<path id="dark-northeast" inkscape:connector-curvature="0" d="M-82.5,80.5l48-48l-23,48"/>
+		<path id="dark-southeast" inkscape:connector-curvature="0" d="M-82.5,80.5l48,48l-48-23"/>
+		<path id="dark-southwest" inkscape:connector-curvature="0" d="M-82.5,80.5l-48,48l23-48"/>
+		<path id="dark-northwest" inkscape:connector-curvature="0" d="M-82.5,80.5l-48-48l48,23"/>
+	</g>
+</g>
+<g id="major-rose">
+	<g id="light-major">
+		<path id="light-north" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l-24-24l24-132"/>
+		<path id="light-east" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l24-24l132,24"/>
+		<path id="light-south" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l24,24l-24,132"/>
+		<path id="light-west" inkscape:connector-curvature="0" class="st4" d="M-82.5,80.5l-24,24l-132-24"/>
+	</g>
+	<g id="dark-major">
+		<path id="dark-north" inkscape:connector-curvature="0" d="M-82.5,80.5l24-24l-24-132"/>
+		<path id="dark-east" inkscape:connector-curvature="0" d="M-82.5,80.5l24,24l132-24"/>
+		<path id="dark-south" inkscape:connector-curvature="0" d="M-82.5,80.5l-24,24l24,132"/>
+		<path id="dark-west" inkscape:connector-curvature="0" d="M-82.5,80.5l-24-24l-132,24"/>
+	</g>
+</g>
+</svg>
