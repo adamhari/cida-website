@@ -124,10 +124,43 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-1-new.jpg") no-repeat center top;
+    /*background: url("../images/banner-images/banner-image-1-new.jpg") no-repeat center top;
+    background-size:cover;
+    margin-left:auto;
+    margin-right:auto;*/
+}
+
+
+
+
+
+#backgrounds > div{
     background-size:cover;
     margin-left:auto;
     margin-right:auto;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:-1;
+    transition: 1.2s opacity linear;
+    -webkit-transition:1.2s opacity linear;
+    -moz-transition: 1.2s opacity linear;
+    -o-transition: 1.2s opacity linear;
+    opacity:0;
+}
+
+#backgrounds > .active-background{
+    opacity:1;
+}
+
+
+.banner-bg-1{
+    background: url("../images/banner-images/banner-image-1-new.jpg") no-repeat center top; 
+    
+}
+
+.banner-bg-2{
+    background: url("../images/banner-images/banner-image-1-alt-1.png") no-repeat center top; 
 }
 
 
@@ -166,8 +199,8 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:60px;
-    line-height:60px;
+    font-size:52px;
+    line-height:52px;
     font-weight:800;
     color:#111;
 }
