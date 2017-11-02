@@ -850,7 +850,7 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 #banner {
   background-size: cover;
-  height: calc(100vh - 30px);
+  height: 100vh;
   min-height: 800px; }
 
 #backgrounds > div {
