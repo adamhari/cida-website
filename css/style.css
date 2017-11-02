@@ -299,8 +299,6 @@ figure {
   left: 0; }
 
 #wrapper {
-  margin: 0 15px;
-  padding: 15px 0;
   position: relative; }
 
 /* --------- 1.1 Input Elements ---------- */
@@ -483,8 +481,8 @@ section {
   shape-rendering: geometricPrecision;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 90px;
-  height: 45px;
+  width: 120px;
+  height: 60px;
   margin-top: 15px; }
 
 #logo h2 {
@@ -853,12 +851,13 @@ h6 {
 #banner {
   background-size: cover;
   height: calc(100vh - 30px);
-  min-height: 640px; }
+  min-height: 800px; }
 
 #backgrounds > div {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
+  min-height: 800px;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -1754,7 +1753,7 @@ blockquote {
   #logo {
     margin-left: auto;
     margin-right: auto;
-    width: 90px;
+    width: 120px;
     float: none; }
 
   #logo h2 {
@@ -1917,10 +1916,7 @@ blockquote {
     padding-right: 40px; }
 
   .gallery {
-    padding: 0 20px; }
-
-  #banner {
-    min-height: 960px; } }
+    padding: 0 20px; } }
 @media screen and (min-aspect-ratio: 21 / 9) {
   #backgrounds > div {
     height: 200%;

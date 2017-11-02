@@ -463,8 +463,6 @@ figure {
 }
 
 #wrapper {
-    margin: 0 15px;
-    padding: 15px 0;
     position: relative;
 }
 
@@ -694,8 +692,8 @@ section {
     shape-rendering: geometricPrecision;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90px;
-    height: 45px;
+    width: 120px;
+    height: 60px;
     margin-top: 15px;
 }
 
@@ -1122,7 +1120,7 @@ h6 {
 #banner {
     background-size: cover;
     height: calc(100vh - 30px);
-    min-height: 640px;
+    min-height: 800px;
 }
 
 
@@ -1131,6 +1129,7 @@ h6 {
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    min-height:800px;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -2169,7 +2168,7 @@ blockquote {
     #logo {
         margin-left: auto;
         margin-right: auto;
-        width: 90px;
+        width: 120px;
         float: none;
     }
 
@@ -2407,9 +2406,6 @@ blockquote {
         padding: 0 20px;
     }
 
-    #banner{
-        min-height:960px;
-    }
 }
 
 
