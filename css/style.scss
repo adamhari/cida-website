@@ -1410,18 +1410,24 @@ blockquote {
 }
 
 .gallery a img {
-    /*@include filter(grayscale(100%) saturate(130%) contrast(140%));
-            mix-blend-mode: screen;*/
     vertical-align: middle;
 }
 
-/*.gallery a:hover .gallery-image-container{
+.gallery a:hover .gallery-image-container{
             background-color:transparent;
         }
 
         .gallery a:hover img{
-            @include filter(none);
-        }*/
+        }
+
+
+.bw-gallery a img{
+    @include filter(grayscale(100%));
+}
+
+    .bw-gallery a:hover img{
+        @include filter(none);
+    }
 
 
 /**
@@ -1590,12 +1596,12 @@ blockquote {
     .featherlight-next span {
         text-align: right;
         left: auto;
-        right: 7%;
+        right: 25%;
     }
 
     .featherlight-previous span {
         text-align: left;
-        left: 7%;
+        left: 20%;
     }
 
     .featherlight-next:hover span,
@@ -1789,7 +1795,7 @@ blockquote {
 #map {
     width: 100%;
     height: 100%;
-    min-height: 480px;
+    min-height: 420px;
 }
 
 #map:after {
