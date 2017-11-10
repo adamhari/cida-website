@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* Namari Landing Page v.1.1.0 Style Index - a free landing page by shapingrain.com
 
 
@@ -118,9 +118,9 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 #banner {
   /*background: url("../images/banner-images/banner-image-1-new.jpg") no-repeat center top;
-  background-size:cover;
-  margin-left:auto;
-  margin-right:auto;*/ }
+    background-size:cover;
+    margin-left:auto;
+    margin-right:auto;*/ }
 
 #backgrounds > div {
   background-size: cover;
@@ -341,9 +341,9 @@ input:focus, textarea:focus {
 /*------------------------------------------------------------------------------------------*/
 #content {
   background: #fff;
-  -webkit-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15); }
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); }
 
 section {
   clear: both;
@@ -872,10 +872,10 @@ h6 {
   opacity: 1; }
 
 .banner-bg-1 {
-  background: url("../images/banner-images/banner-image-1-new.jpg") no-repeat center top; }
+  background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top; }
 
 .banner-bg-2 {
-  background: url("../images/banner-images/clouds-1846346.jpg") no-repeat center top; }
+  background: url("../images/banner-images/banner-image-2.png") no-repeat center top; }
 
 #banner-content.row {
   padding-top: 200px;
@@ -971,6 +971,11 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 /* 6. Landing Page Sections */
 /*------------------------------------------------------------------------------------------*/
+/*------------------- 6.0 Body --------------------*/
+.body-content-list {
+  line-height: 2;
+  list-style: inside square; }
+
 /* --------- 6.1 Introduction ---------- */
 .introduction img.featured {
   padding: 55px 0 0 0; }
@@ -1126,11 +1131,9 @@ blockquote {
     background: #333;
     /* IE8 "hack" for nested featherlights */
     background: transparent; }
-
   /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
   .featherlight:last-of-type {
     background: rgba(0, 0, 0, 0.8); }
-
   .featherlight:before {
     /* position: trick to center content vertically */
     content: '';
@@ -1138,7 +1141,6 @@ blockquote {
     height: 100%;
     vertical-align: middle;
     margin-right: -0.25em; }
-
   .featherlight .featherlight-content {
     /* position: centering vertical and horizontal */
     text-align: left;
@@ -1158,12 +1160,10 @@ blockquote {
     cursor: auto;
     /* reset white-space wrapping */
     white-space: normal; }
-
   /* contains the content */
   .featherlight .featherlight-inner {
     /* make sure its visible */
     display: block; }
-
   .featherlight .featherlight-close-icon {
     /* position: centering vertical and horizontal */
     position: absolute;
@@ -1184,23 +1184,20 @@ blockquote {
     -moz-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
     transition: all 0.15s linear; }
-
   .featherlight .featherlight-close-icon:hover {
     opacity: 1; }
-
   .featherlight .featherlight-image {
     /* styling */
     max-height: 100%;
     max-width: 100%; }
-
   .featherlight-iframe .featherlight-content {
     /* removed the border for image croping since iframe is edge to edge */
     border-bottom: 0;
     padding: 0; }
-
   .featherlight iframe {
     /* styling */
     border: none; } }
+
 /* handling phones and small screens */
 @media only screen and (max-width: 1024px) {
   .featherlight .featherlight-content {
@@ -1210,6 +1207,7 @@ blockquote {
     max-height: 98%;
     padding: 10px 10px 0;
     border-bottom: 10px solid transparent; } }
+
 /* Gallery Styling */
 @media all {
   .featherlight-next,
@@ -1234,11 +1232,9 @@ blockquote {
     -moz-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
     transition: all 0.15s linear; }
-
   .featherlight-previous {
     left: 0;
     right: 80%; }
-
   .featherlight-next span,
   .featherlight-previous span {
     display: inline-block;
@@ -1257,33 +1253,30 @@ blockquote {
     -moz-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
     transition: all 0.15s linear; }
-
   .featherlight-next span {
     text-align: right;
     left: auto;
     right: 25%; }
-
   .featherlight-previous span {
     text-align: left;
     left: 20%; }
-
   .featherlight-next:hover span,
   .featherlight-previous:hover span {
     display: inline-block;
     opacity: 1; }
-
   /* Hide navigation while loading */
   .featherlight-loading .featherlight-previous, .featherlight-loading .featherlight-next {
     display: none; } }
+
 /* Always display arrows on touch devices */
 @media only screen and (max-device-width: 1024px) {
   .featherlight-next:hover,
   .featherlight-previous:hover {
     background: none; }
-
   .featherlight-next span,
   .featherlight-previous span {
     display: block; } }
+
 /* handling phones and small screens */
 @media only screen and (max-width: 1024px) {
   .featherlight-next,
@@ -1291,15 +1284,14 @@ blockquote {
     top: 10px;
     right: 10px;
     left: 85%; }
-
   .featherlight-previous {
     left: 10px;
     right: 85%; }
-
   .featherlight-next span,
   .featherlight-previous span {
     margin-top: -30px;
     font-size: 40px; } }
+
 /* --------- 6.5 Video ---------- */
 #video-box {
   color: #fff;
@@ -1398,7 +1390,10 @@ blockquote {
 
 #clients img {
   display: inline-block;
-  padding: 15px 25px; }
+  padding: 15px 25px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
 .client-overlay {
   background: rgba(211, 47, 47, 0.96);
@@ -1635,6 +1630,7 @@ blockquote {
     -moz-transform: translate(0, 220%);
     -o-transform: translate(0, 220%);
     transform: translate(0, 220%); } }
+
 @keyframes ball-triangle-path-ball-two {
   0% {
     -webkit-transform: translate(110%, 0);
@@ -1665,6 +1661,7 @@ blockquote {
     -moz-transform: translate(110%, 0);
     -o-transform: translate(110%, 0);
     transform: translate(110%, 0); } }
+
 @keyframes ball-triangle-path-ball-tree {
   0% {
     -webkit-transform: translate(220%, 220%);
@@ -1695,6 +1692,7 @@ blockquote {
     -moz-transform: translate(220%, 220%);
     -o-transform: translate(220%, 220%);
     transform: translate(220%, 220%); } }
+
 /*------------------------------------------------------------------------------------------*/
 /* Responsive Elements */
 /*------------------------------------------------------------------------------------------*/
@@ -1703,137 +1701,105 @@ blockquote {
 @media all and (max-width: 1024px) {
   #nav-trigger {
     display: block; }
-
   nav#nav-main {
     display: none; }
-
   nav#nav-mobile {
     display: block; }
-
   nav#nav-mobile li {
     display: block; }
-
   #header aside {
     display: none; } }
+
 /* Landscape mobile & down
 ===============================*/
 @media (max-width: 480px) {
   #wrapper {
     margin: 0;
     padding: 0; }
-
   .page-border, #scrollUp, #scrollUp:before {
     display: none; }
-
   #banner {
     height: 100vh; }
-
   .row {
     padding: 15px !important;
     text-align: center; }
-
   .section-heading::before, .section-heading h2:after {
     margin-left: auto;
     margin-right: auto; }
-
   .col-38 {
     left: 0; }
-
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38, .row {
     width: 100%; }
-
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38 {
     padding-right: 0;
     padding-left: 0; }
-
   /*-----------------Header Elements-----------------*/
   #header .row {
     padding: 0 15px !important; }
-
   #header.nav-solid [class*="col-"] {
     padding: 0; }
-
   /*Logo*/
   #logo {
     margin-left: auto;
     margin-right: auto;
     width: 120px;
     float: none; }
-
   #logo h2 {
     padding: 0; }
-
   /* Social */
   #header aside {
     clear: both;
     padding: 0; }
-
   #header ul.social-icons {
     margin-top: 0; }
-
   #banner-content.row {
     padding-top: 150px !important; }
-
   /*-----------------Sections-----------------*/
   /* Call to Action*/
   .call-to-action {
     padding-bottom: 25px; }
-
   /* Video */
   .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
     height: 270px !important; }
-
   /*-----------------Typography-----------------*/
   h1 {
     font-size: 38px; }
-
   #banner h1 {
     font-size: 40px;
     line-height: 44px; }
-
   /* Hide Elements */
   a#scrollUp {
     display: none !important; } }
+
 /* Mobile to Tablet Portrait
 ===============================*/
 @media (min-width: 480px) and (max-width: 767px) {
   #banner-logo {
     margin-top: 0; }
-
   #wrapper {
     margin: 0;
     padding: 0; }
-
   .page-border, #scrollUp, #scrollUp:before {
     display: none; }
-
   #banner {
     height: 100vh; }
-
   .row {
     padding: 15px 0 !important;
     text-align: center; }
-
   .col-38 {
     left: 0; }
-
   .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
     width: 100%; }
-
   .col-3, .col-4, .col-6, .col-8, .col-10, .col-12 {
     width: 100%; }
-
   /*-----------------Header Elements-----------------*/
   #header .row {
     padding: 0 !important; }
-
   .section-heading::before, .section-heading h2:after {
     margin-left: auto;
     margin-right: auto; }
-
   .row {
     text-align: center; }
-
   #header aside {
     display: inline-block;
     position: absolute;
@@ -1841,44 +1807,36 @@ blockquote {
     right: 20px;
     padding-top: 3px;
     padding-right: 0px; }
-
   #header.nav-solid aside {
     top: 20px; }
-
   #header aside ul {
     margin-top: 0 !important;
     padding-top: 6px; }
-
   #banner-content.row {
     padding-top: 150px !important; }
-
   /*Navigation*/
   nav#nav-mobile ul {
     margin-left: -40px;
     margin-right: -40px;
     padding-left: 20px;
     padding-right: 20px; }
-
   /*-----------------Sections-----------------*/
   /* Video */
   .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
     height: 370px !important; } }
+
 /* Landscape Tablet to Desktop
 ===============================*/
 @media (min-width: 768px) and (max-width: 1024px) {
   #wrapper {
     margin: 0;
     padding: 0; }
-
   .page-border {
     display: none; }
-
   #banner {
     height: 100vh; }
-
   .big-padding-top {
     padding-top: 45px !important; }
-
   /*-----------------Header Elements-----------------*/
   #header aside {
     display: inline-block;
@@ -1887,47 +1845,43 @@ blockquote {
     right: 20px;
     padding-top: 3px;
     padding-right: 5px; }
-
   #header.nav-solid aside {
     top: 20px; }
-
   #header aside ul {
     margin-top: 0 !important;
     padding-top: 6px; }
-
   /*Navigation*/
   nav#nav-mobile ul {
     margin-left: -40px;
     margin-right: -40px;
     padding-left: 20px;
     padding-right: 20px; }
-
   /*-----------------Sections-----------------*/
   /* Video */
   .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
     height: 432px !important; }
-
   .col-38 {
     width: 50%; } }
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* Retina-specific stuff here */ }
+
 /* Non-Mobile */
 @media screen and (min-width: 768px) {
   .row > [class*='col-']:first-child {
     padding-left: 40px; }
-
   .row > [class*='col-']:last-child {
     padding-right: 40px; }
-
   .gallery {
     padding: 0 20px; } }
+
 @media screen and (min-aspect-ratio: 21 / 9) {
   #backgrounds > div {
     height: 200%;
     background-position-y: top; } }
+
 @media screen and (max-width: 1024px) and (max-height: 1024px) {
   #backgrounds > div {
     height: 150%;
     background-position-y: top; } }
 
-/*# sourceMappingURL=style.css.map */
