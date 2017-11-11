@@ -1294,6 +1294,22 @@ h6 {
 }
 
 
+.body-right-section{
+    height:100%;
+    background:$accent-color;
+    color:$white;
+    padding:10px 40px 25px 40px;
+    font-size:11pt;
+}
+
+.body-right-section p{
+    font-size:13pt;
+}
+
+.body-right-section ul {
+    font-weight:600;
+}
+
 
 
 
@@ -1448,7 +1464,7 @@ blockquote {
     }
 
 
-    .bw-gallery .gallery-logo{
+    .bw-gallery .gallery-cida-logo{
         @include filter(none);
     }
 
