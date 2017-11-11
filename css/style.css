@@ -1104,6 +1104,11 @@ blockquote {
   -moz-filter: none;
   filter: none; }
 
+.bw-gallery .gallery-logo {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none; }
+
 /**
  * Featherlight – ultra slim jQuery lightbox
  * Version 1.3.3 - http://noelboss.github.io/featherlight/
