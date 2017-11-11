@@ -984,10 +984,12 @@ h6 {
   font-size: 11pt; }
 
 .body-right-section p {
-  font-size: 13pt; }
+  font-size: 13pt;
+  font-weight: 400; }
 
 .body-right-section ul {
-  font-weight: 600; }
+  font-weight: 600;
+  list-style: disc inside; }
 
 /* --------- 6.1 Introduction ---------- */
 .introduction img.featured {
