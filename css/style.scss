@@ -2142,6 +2142,9 @@ blockquote {
 ===============================*/
 @media (max-width: 480px) {
 
+    #clients .col-2-3 [class*='col-'] {
+        width: 100% !important;
+    }
 
 
     #wrapper {

@@ -1713,6 +1713,8 @@ blockquote {
 /* Landscape mobile & down
 ===============================*/
 @media (max-width: 480px) {
+  #clients .col-2-3 [class*='col-'] {
+    width: 100% !important; }
   #wrapper {
     margin: 0;
     padding: 0; }
