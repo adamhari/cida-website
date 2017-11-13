@@ -1011,6 +1011,9 @@ h6 {
 .testimonial {
   padding: 15px; }
 
+.testimonial .quote-name {
+  line-height: 0px; }
+
 blockquote {
   position: relative; }
 
@@ -1019,7 +1022,7 @@ blockquote {
   border-radius: 250em; }
 
 .testimonial footer {
-  padding-top: 12px;
+  padding-top: 8px;
   font-weight: 700; }
 
 .testimonial.bigtest .quote-subtext {

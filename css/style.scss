@@ -1346,6 +1346,10 @@ h6 {
     padding: 15px;
 }
 
+.testimonial .quote-name{
+    line-height:0px;
+}
+
 blockquote {
     position: relative;
 }
@@ -1356,7 +1360,7 @@ blockquote {
 }
 
 .testimonial footer {
-    padding-top: 12px;
+    padding-top: 8px;
     font-weight: 700;
 }
 
