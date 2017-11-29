@@ -24,7 +24,10 @@ $(document).ready(function () {
     //force scrolling to top on refresh to avoid broken border
     $(this).scrollTop(0);
 
-    $('.lazy').lazy();
+    $('.lazy').lazy({
+        combined: true,
+        delay: 5000
+    });
 
 
 
