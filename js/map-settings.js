@@ -150,17 +150,13 @@
     });
 
 
-    var marker = new google.maps.Marker({
-        position: calgary,
-        map: map,
-        title: "Mailing Address"
-    });
-
-
-
-
     //var marker = new google.maps.Marker({
     //    position: calgary,
-    //    map: map
+    //    map: map,
+    //    title: "Mailing Address"
     //});
+
+
+
+
 }
