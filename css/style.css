@@ -1469,6 +1469,9 @@ blockquote {
   display: inline-block; }
 
 /* ----------- 6.7 Commitments ---------- */
+#commitments .row:first-child {
+  padding-top: 25px; }
+
 #commitments .row {
   text-align: center;
   padding-bottom: 0; }

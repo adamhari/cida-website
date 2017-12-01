@@ -1872,6 +1872,10 @@ blockquote {
 
 #commitments {
 
+    .row:first-child{
+        padding-top:25px;
+    }
+
 
     .row{
         text-align:center;
