@@ -10,7 +10,7 @@ $('#callToActionButton').on('click', function () {
        600);
 });
 
-$('#contactUsButton').on('click', function () {
+$('.contactUsButton').on('click', function () {
     $('html,body').animate({
         scrollTop: $("#contact").offset().top
     },

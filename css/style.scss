@@ -199,6 +199,7 @@ a:hover, #header.nav-solid nav a:hover {
     width: 30px;
     height: 5px;
     margin-top: 30px;
+    margin-left:2px;
 }
 
 .text-center .section-heading h2:after {
@@ -626,6 +627,10 @@ section {
     width: 75%;
 }
 
+.col-4-5 {
+    width:80%;
+}
+
 .col-9-10 {
     width: 90%;
 }
@@ -732,21 +737,40 @@ section {
 
 .button {
     cursor: pointer;
-    font-size: 13px;
+    font-size: 12px;
     margin: 20px 0;
-    padding: 11px 16px;
+    padding: 16px 16px;
     display: inline-block;
-    border: solid $accent-color 4px;
     color: $white;
     background: $accent-color;
     @include transition(all 0.15s linear);
     font-weight: 700;
+    width:50%;
+    text-align:center;
+    letter-spacing:1px;
 }
 
 .button:hover {
     background: $accent-color-dark;
     color: $white;
-    border: solid $accent-color-dark 4px;
+}
+
+
+.contactUsButton{
+    background:$white;
+    color:$accent-color
+}
+
+.contactUsButton:hover{
+    color:$offblack;
+    background:$white;
+}
+
+
+.quoteButton{
+    width:150px;
+    margin-top:30px;
+    margin-bottom:0;
 }
 
 /* Play Button */
@@ -1214,7 +1238,7 @@ h6 {
 /* Icon Left*/
 
 .icon-left .icon {
-    left: 15;
+    left: 15px;
 }
 
 .icon-left .icon-block-description {
@@ -1224,7 +1248,7 @@ h6 {
 /* Icon Right */
 
 .icon-right .icon {
-    right: 15;
+    right: 15px;
 }
 
 .icon-right .icon-block-description {
@@ -1309,12 +1333,13 @@ h6 {
 }
 
 .body-right-section p{
-    font-size:13pt;
-    font-weight:300;
+    font-size:14pt;
+    font-weight:200;
 }
 
 .body-right-section ul{
     font-weight:600;
+    font-size:10.5pt;
 }
 
 
@@ -1843,8 +1868,43 @@ blockquote {
 }
 
 
+/* ----------- 6.7 Commitments ---------- */
 
-/* --------- 6.7 Contact ---------- */
+#commitments {
+
+
+    .row{
+        text-align:center;
+        padding-bottom:0;
+    }
+
+
+    .section-title:after{
+        margin-left:auto;
+        margin-right:auto;
+        width:100px;
+    }
+
+    .section-subtitle{
+        max-width:480px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .commitment-row{
+        padding-top:25px;
+        padding-bottom:75px !important;
+    }
+
+    .commitment-block{
+        padding:15px 45px;
+    }
+}
+
+
+
+
+/* --------- 6.8 Contact ---------- */
 
 #map {
     width: 100%;
@@ -2208,11 +2268,11 @@ blockquote {
         left: 0;
     }
 
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38, .row {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-4-5, .col-9-10, .col-61, .col-38, .row {
         width: 100%;
     }
 
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38 {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-4-5, .col-9-10, .col-61, .col-38 {
         padding-right: 0;
         padding-left: 0;
     }
@@ -2321,7 +2381,7 @@ blockquote {
     }
 
 
-    .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
+    .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-4-5, .col-61, .col-38, .row {
         width: 100%;
     }
 
