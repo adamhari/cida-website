@@ -1493,6 +1493,9 @@ blockquote {
 #commitments .commitment-block {
   padding: 15px 45px; }
 
+#commitments .commitment-words {
+  margin-top: 10px; }
+
 /* --------- 6.8 Contact ---------- */
 #map {
   width: 100%;
